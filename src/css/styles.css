@@ -1,0 +1,10 @@
+input, button {
+    padding: 10;
+    border-radius: 5000;
+    border: 6dvh 
+}
+
+button { 
+    background-color: rgb(157, 157, 200);
+
+}

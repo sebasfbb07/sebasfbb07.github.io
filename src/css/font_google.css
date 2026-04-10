@@ -1,0 +1,128 @@
+/* El "*" sirve para que sea aplicado globalmente */
+* {
+    font-family: "Google Sans", sans-serif;
+}
+
+body {
+    font-optical-sizing: auto;
+    font-weight: 400; /* Peso normal para el texto */
+    font-style: normal;
+    font-variation-settings: "GRAD" 0;
+    background-color: lightblue;
+}
+
+/* Estilo para los títulos (más negrita) */
+h1, h2, h3 {
+    font-weight: 999;
+}
+
+/* Estilo para la lista del menú */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+header {
+    background-color:rgb(121, 162, 176);
+    display:flex;
+    justify-content: center;
+}   
+
+a {
+    text-decoration: none;
+    color: white;
+}
+nav{
+   background-color: rgb(49, 100, 114); 
+   justify-content: center;
+   display: flex;
+}
+main{
+    background-color:rgb(103, 147, 161);
+   
+    
+}
+h2{
+    margin-bottom: 30px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    background-color:rgb(121, 162, 176);
+    padding: 12px;
+
+}
+p{
+    line-height: 1.6;
+    font-size: 1.1rem;;
+    display: flex;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 20px;
+    background-color:rgb(121, 162, 176);
+}
+div{
+    background-color:rgb(121, 162, 176);
+    font-optical-sizing: auto;
+    font-weight: 100; 
+    font-variation-settings: "GRAD" 0;
+    padding-bottom: 20px;
+
+}
+.profile-img{
+    width: 150px;
+    height: auto;
+    background-color:rgb(103, 147, 161);
+    display: block;
+    margin: 20px auto;
+    
+    
+}
+.pets-profile-img{
+    width: 350px;
+    height: auto;
+    background-color:rgb(103, 147, 161);
+    display: block;
+    margin: 20px auto;
+    
+    
+}
+.div-pets{
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+
+}
+.pets-nav{
+    background-color: rgb(49, 100, 114); 
+    margin-bottom:  50px;
+   justify-content: center;
+   display: flex;
+}
+
+.pets-h2{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+}
+.pets-p{
+    text-align: center;  
+    margin-top: 15px;
+    max-width: 300px;    
+    margin-left: auto;   
+    margin-right: auto;
+    font-family: sans-serif;
+    
+}
+
+.contenedor-formulario {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 10px;               
+}
