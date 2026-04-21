@@ -1,15 +1,1 @@
-@media (min-width: 768px){
-    .menu{
-        opacity: 1;
-        transform: none;
-        max-height: none;
-        pointer-events: auto;
-    }
-    .menu-icon{
-        display:none;
-    }
-    .menu ul {
-        flex-direction: row;
-    }
-}
 
