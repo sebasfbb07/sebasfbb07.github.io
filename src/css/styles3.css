@@ -10,9 +10,12 @@
     gap: 20px;
     list-style: none;
 }
+#close-label {
+        display: none;
+    }
 
 @media (max-width: 768px) {
-
+    
     /* mostrar icono */
     .menu-icon {
         display: block;
@@ -20,7 +23,9 @@
         right: 20px;
         top: 20px;
     }
-
+    #close-label {
+        display: block;
+    }
     /* ocultar menú por defecto */
     .menu {
         position: absolute;
