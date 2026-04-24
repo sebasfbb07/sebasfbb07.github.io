@@ -18,10 +18,9 @@
     
     /* mostrar icono */
     .menu-icon {
-        display: block;
-        
-        right: 20px;
-        top: 20px;
+    display: block;
+    right: 20px;
+    top: 20px;
     }
     #close-label {
         display: block;
@@ -33,10 +32,8 @@
         left: 0;
         width: 100%;
         background: #020617;
-
         max-height: 0;
         overflow: hidden;
-
         transition: 0.3s;
     }
 
